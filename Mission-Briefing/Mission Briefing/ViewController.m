@@ -67,13 +67,12 @@
         //
         
         NSString *agentName = self.agentNameTextField.text;
-        NSArray *nameComponents = [agentName componentsSeparatedByString:@" "];
-        
         
         // Additional step(s) to remove only the last name
+        NSArray *nameComponents = [agentName componentsSeparatedByString:@" "];
         self.greetingLabel.text = [NSString stringWithFormat:@"Good evening, Agent %@", nameComponents[1]];
         
-        //
+        
         // 4. The mission briefing textview needs to be populated with the briefing from HQ, but it must also include the last
         //    name of the agent that logged in. You will notice in the text a "%@" string after the word "Agent". This
         //    instructs the system to replace the "%@" with an actual value at runtime. Perhaps you could use the text in the
@@ -82,7 +81,8 @@
         //    Set the textview text property to the paragraph in "MissionBriefing.txt"
         //
         
-        self.missionBriefingTextView.text = nameComponents[1];
+        self.missionBriefingTextView.text = [NSString stringWithFormat:@"This mission will be an arduous one, fraught with peril. You will cover much strange and unfamiliar territory. Should you choose to accept this mission, Agent %@, you will certainly be disavowed, but you will be doing your country a great service. This message will self destruct in 5 seconds.", nameComponents[1]];
+        
         
         //
         // 5. The view's background color needs to switch to green to indicate a successful login by the agent.
@@ -95,20 +95,12 @@
         
         
 
-        UIColor *authenticatedBackgroundColor = [UIColor colorWithRed:0.585 green:0.78 blue:0.188 alpha:1];
+        UIColor *authenticatedBackgroundColor = [UIColor colorWithRed:0.585 green:0.78 blue:0.188 alpha:1.0];
         
-        
-        }
-                                                 
-        
-        
-        }
-        
-
-            
-        }
         
         // Additional step to set the above color object to self.view's background color
+        
+        self.view.backgroundColor = authenticatedBackgroundColor;
     }
     else
     {
@@ -121,8 +113,10 @@
         //
         //    Once you have the color object, you should be able to set the view's background color to this object.
         //
-        UIColor *accessDeniedBackgroundColor = nil;
+        UIColor *accessDeniedBackgroundColor = [UIColor colorWithRed:0.78 green:0.188 blue:0.188 alpha:1.0];
+        
         // Additional step to set the above color object to self.view's background color
+        self.view.backgroundColor = accessDeniedBackgroundColor;
     }
 }
 

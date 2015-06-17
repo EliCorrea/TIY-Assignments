@@ -50,8 +50,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-Fv-yl1">
-                                <rect key="frame" x="200" y="388" width="200" height="172"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-Fv-yl1">
+                                <rect key="frame" x="199" y="391" width="200" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="4N1-LB-LpH"/>
                                     <constraint firstAttribute="height" constant="172" id="GwO-g4-qka"/>
@@ -74,6 +74,7 @@
                             <constraint firstItem="ccU-ve-nuM" firstAttribute="centerX" secondItem="k6s-Cc-dbR" secondAttribute="centerX" id="EFn-1V-s0i"/>
                             <constraint firstItem="ccU-ve-nuM" firstAttribute="top" secondItem="7cm-88-qFf" secondAttribute="bottom" constant="10" id="HzI-tg-qj0"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="qZC-WU-mTE" secondAttribute="bottom" constant="20" id="VbH-ux-D8w"/>
+                            <constraint firstItem="9pW-Fv-yl1" firstAttribute="centerX" secondItem="qZC-WU-mTE" secondAttribute="centerX" id="WjH-PD-oVJ"/>
                             <constraint firstItem="ccU-ve-nuM" firstAttribute="top" secondItem="8O7-tP-wex" secondAttribute="bottom" constant="10" id="bao-JW-XX1"/>
                             <constraint firstItem="ccU-ve-nuM" firstAttribute="centerX" secondItem="8O7-tP-wex" secondAttribute="centerX" id="fp1-JP-una"/>
                             <constraint firstItem="9pW-Fv-yl1" firstAttribute="top" secondItem="qZC-WU-mTE" secondAttribute="bottom" constant="10" id="jUz-QM-ken"/>
@@ -87,9 +88,9 @@
                                 <exclude reference="EF1-PE-DCJ"/>
                                 <exclude reference="kc9-Rc-nkc"/>
                                 <exclude reference="B9l-nC-VWL"/>
-                                <exclude reference="E2S-ml-igz"/>
                                 <exclude reference="bao-JW-XX1"/>
                                 <exclude reference="fp1-JP-una"/>
+                                <exclude reference="E2S-ml-igz"/>
                                 <exclude reference="VbH-ux-D8w"/>
                             </mask>
                         </variation>

@@ -10,31 +10,31 @@
 	<string>Mission Briefing</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>57A00D9F222E766B2D01C477300CD0869E5675C2</key>
-		<string>https://github.com/EliCorrea/TIY-Assignments.git</string>
+		<key>22E880E88EDED6DF6AC3F7081EABBD108AEB8DD8</key>
+		<string>https://github.com/TheIronYard--Orlando/2015--SUMMER--iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Mission-Briefing/Mission Briefing.xcodeproj</string>
+	<string>01--Mission-Briefing/Homework/Mission Briefing.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>57A00D9F222E766B2D01C477300CD0869E5675C2</key>
-		<string>../../..</string>
+		<key>22E880E88EDED6DF6AC3F7081EABBD108AEB8DD8</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/EliCorrea/TIY-Assignments.git</string>
+	<string>https://github.com/TheIronYard--Orlando/2015--SUMMER--iOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>57A00D9F222E766B2D01C477300CD0869E5675C2</string>
+	<string>22E880E88EDED6DF6AC3F7081EABBD108AEB8DD8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>57A00D9F222E766B2D01C477300CD0869E5675C2</string>
+			<string>22E880E88EDED6DF6AC3F7081EABBD108AEB8DD8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>TIY-Assignments</string>
+			<string>2015--SUMMER--iOS</string>
 		</dict>
 	</array>
 </dict>
