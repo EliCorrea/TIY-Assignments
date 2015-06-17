@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8FDB280C-FBFB-476E-B5BD-3C1A2AF42A15</string>
+	<string>32824694-B513-47B1-A831-941213DF7856</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Mission Briefing</string>
+	<string>NOC List</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>57A00D9F222E766B2D01C477300CD0869E5675C2</key>
 		<string>https://github.com/EliCorrea/TIY-Assignments.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Mission-Briefing/Mission Briefing.xcodeproj</string>
+	<string>NOC-List/NOC List.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>57A00D9F222E766B2D01C477300CD0869E5675C2</key>
