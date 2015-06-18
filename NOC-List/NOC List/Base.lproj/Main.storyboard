@@ -88,6 +88,11 @@
                             <constraint firstAttribute="centerY" secondItem="CcE-O6-vyc" secondAttribute="centerY" constant="0.5" id="iLx-4x-doC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="accessLevelLabel" destination="CcE-O6-vyc" id="Hu1-7J-Asz"/>
+                        <outlet property="coverNameLabel" destination="n5y-gO-Ofe" id="9KP-fc-UzD"/>
+                        <outlet property="realNameLabel" destination="7je-oQ-tM7" id="0Mn-v4-sNY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZk-Vk-t1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
