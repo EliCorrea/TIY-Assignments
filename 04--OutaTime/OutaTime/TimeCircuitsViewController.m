@@ -16,11 +16,13 @@
     //    One should be an NSTimer object to use when counting up the speedometer label.
     //    Another should be an NSDateFormatter object to use to format the dates for the time circuit readouts.
     //    The last is an NSInteger object to hold the current speed of the DeLorean.
-    //
     
-//    NSTimer
-//    NSDateFormatter
-//    NSInteger
+    NSTimer *timer;
+    NSDateFormatter *date;
+    NSInteger *number;
+    
+    
+    
 }
 
 // These are the properties that will be wired up to the labels in the storyboard. If the circles to the left of them are hollow, they have not been connected in the storyboard.
@@ -47,24 +49,32 @@
     
     //
     // 2. The view should be titled "Time Circuits"
-    //
+    
+    self.title = @"Time Circuits";
+    
     
     //
     // 3. This is a good place to initialize the objects that will be used later on.
     //    The date formatter object you created above need to be instantiated.
-    //
+    
+    date = [[NSDateFormatter alloc] init];
+    
     
     //
     // 4. Once created, the formatString you see below needs to be set as the date formatter's dateFormat
     //
-    NSString *formatString = [NSDateFormatter dateFormatFromTemplate:@"MMMddyyyy"
+    
+    NSString *str = @"FEB172015";
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    
+    
                                                              options:0
                                                               locale:[NSLocale currentLocale]];
     
     //
     // 5. The presentTimeLabel needs to be set to today's date. Use the dateFormatter object to do this.
     //
-    
+    UILabel *presentTimeLabel = 
     
     //
     // 6. The currentSpeed integer object needs to be set to 0 to start.
