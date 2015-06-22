@@ -133,9 +133,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Atb-Fv-IUq"/>
                     <connections>
-                        <outlet property="destinationTimeLabel" destination="bnZ-2X-FPQ" id="4Np-c1-GSy"/>
+                        <outlet property="destinationTimeLabel" destination="9G3-Jw-nUV" id="GcW-bV-hNX"/>
                         <outlet property="lastTimeDepartedLabel" destination="hCj-a6-JqU" id="XlK-h0-QYB"/>
-                        <outlet property="presentTimeLabel" destination="qbp-t6-OK0" id="Ih7-8d-iIs"/>
+                        <outlet property="presentTimeLabel" destination="EVn-9p-Oge" id="3jN-T0-lOO"/>
                         <outlet property="speedLabel" destination="Y6U-Lk-auo" id="LcO-fI-UTe"/>
                     </connections>
                 </viewController>

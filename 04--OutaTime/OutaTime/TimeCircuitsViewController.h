@@ -10,6 +10,8 @@
 
 @protocol TimeCircuitsDatePickerDelegate
 
+
+    //code below, returns nothing//
 - (void)destinationDateWasChosen:(NSDate *)destinationDate;
 
 @end
@@ -19,6 +21,6 @@
 //    view. The way to declare a class as a delegate is to put the name of the delegate in between <>. It goes after the
 //    superclass declaration (UIViewController below)
 //
-@interface TimeCircuitsViewController : UIViewController
+@interface TimeCircuitsViewController : UIViewController <TimeCircuitsDatePickerDelegate>
 
 @end

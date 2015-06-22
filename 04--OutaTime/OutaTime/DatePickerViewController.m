@@ -30,8 +30,10 @@
     //    datePicker object.
     //
     
+    [self.delegate destinationDateWasChosen:self.datePicker.date];
+    
 }
-
+//void means returns nothing//
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
