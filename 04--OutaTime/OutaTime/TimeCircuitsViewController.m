@@ -74,7 +74,6 @@
     //
     // 5. The presentTimeLabel needs to be set to today's date. Use the dateFormatter object to do this.
     //
-    UILabel *presentTimeLabel = 
     
     //
     // 6. The currentSpeed integer object needs to be set to 0 to start.
