@@ -10,6 +10,21 @@
 
 @interface ViewController ()
 
+{
+    NSDate *birthDate;
+    NSDateFormatter *dateFormatter;
+    NSNumber *age;
+}
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *birthDateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *currentDateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *ageLabel;
+
+
+
+
 @end
 
 @implementation ViewController
