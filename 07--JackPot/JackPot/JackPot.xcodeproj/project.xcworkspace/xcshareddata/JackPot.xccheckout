@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D0684486-C2C8-4283-9C26-F656F7274056</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57A00D9F222E766B2D01C477300CD0869E5675C2</key>
+		<string>https://github.com/EliCorrea/TIY-Assignments.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>07--JackPot/JackPot/JackPot.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57A00D9F222E766B2D01C477300CD0869E5675C2</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/EliCorrea/TIY-Assignments.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57A00D9F222E766B2D01C477300CD0869E5675C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57A00D9F222E766B2D01C477300CD0869E5675C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TIY-Assignments</string>
+		</dict>
+	</array>
+</dict>
+</plist>
